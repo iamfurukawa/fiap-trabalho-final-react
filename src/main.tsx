@@ -1,12 +1,19 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
 
-import Home from './pages/home';
-import GlobalStyles from './shared/global-styles';
+import Router from "./router";
 
-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+import GlobalStyles from "./shared/global-styles";
+import 'react-toastify/dist/ReactToastify.css';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <>
-    <GlobalStyles />
-    <Home />
-  </>,
-)
+    <BrowserRouter>
+      <Router/>
+      <GlobalStyles />
+      <ToastContainer />
+    </BrowserRouter>
+  </>
+);

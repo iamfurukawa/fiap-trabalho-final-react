@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
-  //@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
   #root,
   html,
@@ -9,25 +9,18 @@ const GlobalStyles = createGlobalStyle`
     padding: 0;
     margin: 0;
 
-    width: 100vw;
     height: 100vh;
 
     box-sizing: border-box;
     
-    font-family: Roboto, sans-serif;
-    -webkit-font-smoothing: antialiased;
+    font-family: 'Inter', sans-serif;
 
-    font-family: 'Source Code Pro', monospace;
-  }
 
-  body {
-    //background-image: url('/background.jpg');
-    background-size: cover;
-  }
+    a, a:visited, a:hover, a:active {
+      color: inherit;
+      text-decoration: none;
+    }
 
-  p {
-    font-weight: bold;
-    font-size: larger;
   }
 `;
 
