@@ -37,6 +37,7 @@ const HomePage = () => {
       progress: undefined,
       theme: "dark",
     });
+    setEmail('');
   };
 
   return (
