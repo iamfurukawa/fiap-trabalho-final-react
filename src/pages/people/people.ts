@@ -1,5 +1,6 @@
 import { Person } from '../../shared/person';
-import ViniFoto from './images/vini.png'
+import ViniFoto from './images/vini.png';
+import MichelleFoto from './images/michelle.jpeg';
 
 const freelas: Person[] = [
     {
@@ -27,6 +28,32 @@ const freelas: Person[] = [
             linkedin: 'https://www.linkedin.com/in/iamfurukawa'
         },
         bio: 'Tenho 26 anos, nasci na Praia Grande/SP, mas atualmente moro em Sorocaba. Vou pra baixada todos os meses pra visitar meus pais, mas não sou viciado em praia. Jogo bastante video game, ultimamente zerei Hogwarts Legacy, mas o meu top 3 jogos são God of War, Horizon e Life is Strange. Maratono uma lista enorme de séries e já perdi muito tempo assistindo Supernatural, Greys Anatomy, Friends e How I met your mother. Minhas bandas favoritas são Paramore e Linkin Park. Sou formado em ciência da computação na UFSCar Sorocaba (2019) e desde então trabalhei somente em consultorias, atualmente estou na OPUS Software e trabalho com várias tecnologias desde java backend ou com react e até flutter (e sou péssimo com design).'
+    },
+    {
+        path: 'michelle-sinibaldi',
+        foto: MichelleFoto,
+        nome: "Michelle Sinibaldi",
+        tecnologias: ['Java', 'Kotlin', 'ServerDrivenUI', 'AWS', 'Firebase'],
+        ultimosTrabalhos: [
+            {
+                titulo: 'Desenvolvedora Mobile - Iti',
+                descricao: 'Um hub de relacionamento com o cliente, para engajar os cliente a utilizarem a aplicação. Através de tarefas simples (gameficação), é possível liberar para o cliente uma série de benefícios. Tecnologias usadas no projeto: Kotlin, MVVM, Coroutines, Testes unitários e instrumentados, ServerDrivenUI, Beagle, BFF, Componentização, CI, Acessibilidade, Firebase, Tagueamento, GitHub.'
+            },
+            {
+                titulo: 'Desenvolvedora Mobile - Credicard',
+                descricao: 'Através de tarefas (gameficação), é possível permitir que o cliente tenha acesso ao crédito ou consiga aumentar o seu limite de crédito. As terefas são mensais, e precisam cumprir uma série de requisitos para aprovação e liberação. Tecnologias Usadas: Kotlin, MVVM, Coroutines, Testes unitários e instrumentados, BFF, Componentização, CI, Acessibilidade, Firebase, Tagueamento, GitHub.'
+            },
+            {
+                titulo: 'Desenvolvedora Mobile - Íon.',
+                descricao: 'Um aplicativo onde é possével gerenciar todos os os investimentos em um único local, tanto os da instituição como de outras corretoras. Através de uma "vitrine de produtos", é possível ter acesso a todos os fundos disponívies, além de uma personalização de acordo com cada perfil de investidor e acompanhamento de todas as ações. Kotlin, MVVM, Coroutines, Testes unitários e instrumentados, BFF, Componentização, CI, Acessibilidade, Firebase, Tagueamento, GitHub.'
+            }
+        ],
+        contato: {
+            email: 'mia_araujo92@hotmail.com.br',
+            github: 'https://github.com/mi-sinibaldi',
+            linkedin: 'https://www.linkedin.com/in/mi-sinibaldi'
+        },
+        bio: 'Sou a Michelle, tenho 31 anos. Me formei em Marketing e em Análise e Desenvolvimento de Sistemas, mas um dia ainda serei Bióloga. Sou mãe do Henrique e mãe de Pet, a Cloe, uma labradora amarela e gorda. Minha casa é a Grifinória, meu personagem favorito é a Edwiges (claro!), amo um show, não perco um (literalmente!), adoro músicas e atualmente eu estou fazendo aula de dança, estou fazendo sertanejo e forró, em breve eu pretendo competir. Adoro ler e meu sonho é ter um lar para os animais.'
     },
 ]
 
