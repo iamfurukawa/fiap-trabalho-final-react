@@ -24,6 +24,8 @@ const Freelas = () => {
               nome={freela.nome}
               tecnologias={freela.tecnologias}
               ultimosTrabalhos={freela.ultimosTrabalhos}
+              bio={freela.bio}
+              contato={freela.contato}
             />
           </Link>
         ))}
