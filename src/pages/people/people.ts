@@ -1,6 +1,7 @@
 import { Person } from '../../shared/person';
 import ViniFoto from './images/vini.png';
 import MichelleFoto from './images/michelle.jpeg';
+import Tmalcherfoto from './images/tmalcher.png';
 
 const freelas: Person[] = [
     {
@@ -54,6 +55,32 @@ const freelas: Person[] = [
             linkedin: 'https://www.linkedin.com/in/mi-sinibaldi'
         },
         bio: 'Sou a Michelle, tenho 31 anos. Me formei em Marketing e em Análise e Desenvolvimento de Sistemas, mas um dia ainda serei Bióloga. Sou mãe do Henrique e mãe de Pet, a Cloe, uma labradora amarela e gorda. Minha casa é a Grifinória, meu personagem favorito é a Edwiges (claro!), amo um show, não perco um (literalmente!), adoro músicas e atualmente eu estou fazendo aula de dança, estou fazendo sertanejo e forró, em breve eu pretendo competir. Adoro ler e meu sonho é ter um lar para os animais.'
+    },
+    {
+        path: 'thiago-malcher',
+        foto: Tmalcherfoto,
+        nome: "Thiago Malcher",
+        tecnologias: ['Java', 'Kotlin', 'Python', 'C/C++', 'C#', 'Powershell', 'Shell', 'Android Embedded', 'Firebase', "AWS", "Git", "SVN"],
+        ultimosTrabalhos: [
+            {
+                titulo: 'Android Embedded - Customização da Launcher',
+                descricao: 'Feito alteração para aceitar apps com permissão system a criar um novo layout conforme o cliente desejar.'
+            },
+            {
+                titulo: 'Desenvolvedora Mobile - Aplicação para limpeza do layout',
+                descricao: 'Através de um serviço criado para execução em backgroud (após boot do device) resetar o layout para o padrão de fábrica.'
+            },
+            {
+                titulo: 'Desenvolvedora Mobile - Para analise do device',
+                descricao: 'Um aplicativo onde é possével gerenciar todas as informações do dispositivo (SN, Versão Image, Captura de log (logcat)), onde são enviadas para o firebase com intuito de consumo futuro.'
+            }
+        ],
+        contato: {
+            email: 'malcher.tm@gmail.com',
+            github: 'https://github.com/ThiagoMalcher',
+            linkedin: 'https://www.linkedin.com/in/thiago-malcher-94267916b/'
+        },
+        bio: 'Sou o Thiago, tenho 26 anos, sou de Manaus-AM (bem longe dos outros estados). Sou formado em Ciência da Computação, gosto de ter um bom passeio gastronômico e também fazer trilha, ir a sítios (pois tudo é uma questão de equilíbrio!), também gosto de realizar qualquer atividade com uma boa música (Rock, sertanejo, eletrônica, POP etc...), reunir com os amigos para jogar uma conversa fora e nas horas vagas jogar um game pois ninguém é de ferro! XD '
     },
 ]
 
