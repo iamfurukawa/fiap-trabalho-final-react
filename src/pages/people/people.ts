@@ -58,7 +58,7 @@ const freelas: Person[] = [
     },
     {
         path: 'thiago-malcher',
-        foto: TmalcherFoto,
+        foto: Tmalcherfoto,
         nome: "Thiago Malcher",
         tecnologias: ['Java', 'Kotlin', 'Python', 'C/C++', 'C#', 'Powershell', 'Shell', 'Android Embedded', 'Firebase', "AWS", "Git", "SVN"],
         ultimosTrabalhos: [
